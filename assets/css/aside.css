@@ -1,0 +1,30 @@
+.aside{
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    width: 100%;
+    background-color: #36445c;
+    transition: 1s;
+    text-align: center;
+
+}
+.aside__header{
+    padding: 15px 20px;
+    margin-bottom: 60px;
+}
+.aside__list{
+    color: #9d534a;
+    font-family: 'Potta One', cursive;
+    padding: 0 10px;
+}
+.aside_list__element{
+    margin-bottom: 20px;
+    font-size: 30px;
+    border: 2px solid #217f31;
+    padding: 7px 0;
+    background-color: #43c53c;
+    border-radius: 20px;
+}
+.aside_list_element__info{
+    display: none;
+}

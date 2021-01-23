@@ -1,0 +1,39 @@
+@media only screen and (min-width: 600px) {
+    .aside{
+        position: initial;
+        flex: 1;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    .aside_header__close{
+        display: none;
+    }
+    .aside_list_element__info{
+        display: block;
+    }    
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    
+    border-radius: 70px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #43c53c; 
+    border-radius: 20px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #217f31; 
+    
+    }
+    .aside__list{
+        overflow-y: scroll;
+        height: 80%;
+    }
+}
