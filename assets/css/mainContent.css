@@ -1,4 +1,48 @@
 .main{
-    height: 400px;
     flex: 6;
+   
+}
+.main__episode{
+    padding: 10px;
+}
+.main_episode__content{
+    display: grid;
+    grid-template-columns: 49% auto;
+    text-align: center;
+    grid-gap: 10px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+.main_episode_header__title{
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
+    color: #43c53c;
+}
+.main_episode_header__date{
+    font-size: 18px;
+    font-family: 'Potta One', cursive;
+    color: #43c53c;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.main_episode_content_element__photo{
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 150px;
+
+}
+.main_episode_content_element__data{
+    font-size: 20px;
+    font-family: 'Potta One', cursive;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+  
+
 }

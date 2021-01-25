@@ -6,25 +6,41 @@
     background-color: #36445c;
     transition: 1s;
     text-align: center;
+    min-width: 200px;
 
 }
+
 .aside__header{
     padding: 15px 20px;
     margin-bottom: 60px;
 }
+.aside_header__select{
+    border-radius: 15px;
+    background-color: #43c53c;
+    width: auto;
+    padding: 20px;
+    color: #9d534a;
+    font-family: 'Potta One', cursive;
+}
+.aside_header_select__items:active{
+  padding: 20px;
+}
+
 .aside__list{
     color: #9d534a;
     font-family: 'Potta One', cursive;
     padding: 0 10px;
 }
 .aside_list__element{
+    background-color: #43c53c;
     margin-bottom: 20px;
     font-size: 30px;
     border: 2px solid #217f31;
     padding: 7px 0;
-    background-color: #43c53c;
     border-radius: 20px;
 }
 .aside_list_element__info{
     display: none;
+   font-size: 15px;
+   margin-top: 10px;
 }

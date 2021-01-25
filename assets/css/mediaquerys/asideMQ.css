@@ -1,10 +1,16 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     .aside{
         position: initial;
-        flex: 1;
+        flex: 1.5;
         height: 100vh;
         overflow-y: hidden;
+        
     }
+    .aside__list{
+        height: 93%;
+        overflow-y: auto;
+    }
+    
     .aside_header__close{
         display: none;
     }
@@ -14,8 +20,11 @@
     ::-webkit-scrollbar {
         width: 10px;
     }
-
+    .aside__header{
+        margin: 0;
+    }
     /* Track */
+    
     ::-webkit-scrollbar-track {
     
     border-radius: 70px;
@@ -31,9 +40,5 @@
     ::-webkit-scrollbar-thumb:hover {
     background: #217f31; 
     
-    }
-    .aside__list{
-        overflow-y: scroll;
-        height: 80%;
     }
 }

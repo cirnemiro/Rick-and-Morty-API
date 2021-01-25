@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
+<body class="body">
     <!--HEADER-->
     <header class="header">
         <div class="header__hamburger">
@@ -29,21 +29,35 @@
     <!--ASIDE-->
     <aside class="aside">
         <div class="aside__header">
-            <h3>Season</h3>
+            <select class="aside_header__select" name="" id="">
+                <option class="aside_header_select__items" id="s1" value="1">SEASON 1</option>
+                <option class="aside_header_select__items" id="s2" value="2">SEASON 2</option>
+                <option class="aside_header_select__items" id="s3" value="3">SEASON 3</option>
+                <option class="aside_header_select__items" id="s4" value="4">SEASON 4</option>
+            </select>
             <div class="aside_header__close">
                 <i class="fa fa-times" style="color: #43c53c; font-size: 30px; float: right;"></i>
             </div>
         </div>
         <ul class="aside__list">
-            <div>hol</div>
+            
         </ul>
+        
 
             
 
     </aside>
     <!--MAIN-->
     <main class="main">
-        
+        <section class="main__episode">
+            <div class="main_episode__header">
+                <h3 class="main_episode_header__title"></h3>
+                <p class="main_episode_header__date"></p>
+            </div>
+            <article class="main_episode__content">
+                
+            </article>
+        </section>
     </main>
     
 </body>
